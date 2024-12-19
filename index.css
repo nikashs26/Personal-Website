@@ -1,0 +1,282 @@
+
+body {
+    color:white;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0;
+}
+
+p{
+    font-size: 20px;
+}
+h1{
+
+    font-weight: 300;
+    margin-top:10rem;
+
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+h2
+{
+    font-weight: 300;
+    font-size:30px;
+
+    margin-left: 30%;
+}
+h3
+{
+    font-weight:200;
+    font-size:25px;
+
+
+}
+
+#profile{
+    width:20rem;
+    height:20rem;
+    border-radius: 50%;
+
+    margin-top: 50%;
+}
+#github{
+    background-color: white;
+    border-radius:60px;
+
+    margin-top: .2rem;
+
+
+}
+
+
+#linkedin{
+    margin-left: 1rem;
+}
+
+
+
+#intro
+{
+    
+    margin:0;
+    margin-left: 10%;
+
+
+}
+
+.interest
+{
+    
+    font-size:20px;
+    margin-left:10%;
+    margin-right: 10%;
+    text-align: center;
+}
+#projects
+{
+    margin-top:7rem;
+}
+
+#projects p
+{
+    
+    display: flex;
+    margin-left:5rem;
+
+    margin-top:1rem;
+    max-width: 50%;
+}
+#projects a
+{
+    color:rgb(13, 181, 13);
+    font-size:20px;
+    
+}
+.m13gh
+{
+    margin-left:5rem;
+}
+.ppgh
+{
+    margin-left:2rem;
+}
+.sc4gh
+{
+    margin-left:6rem;
+}
+#math13-proj
+{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+#parks-title
+{
+    margin-left:2.5rem;
+}
+#m13-title
+{
+    margin-left: 1rem;
+}
+#sc4-title
+{
+    margin-left:2rem;
+}
+#parks-proj
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#shrekconnect4-proj
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#hs-title
+{
+    margin-left:35%;
+    margin-top:2rem;
+}
+#clubs-activities div
+{
+    display: flex;
+
+}
+#clubs-activities h3
+{
+    margin-top:3rem;
+}
+#clubs-activities p
+{
+    margin-top:3rem;
+    margin-left:3rem;
+    margin-right:1rem;
+}
+#trumpet
+{
+    margin-top:3rem;
+}
+
+
+.snippets
+{
+    height:10rem;
+    width:15rem;
+    min-width:14rem;
+    max-height:15rem;
+    border-radius:20px;
+
+    margin-top:1rem;
+
+}
+#clubs-activities
+{
+    margin-top:7rem;
+}
+.clubs-activities
+{
+    height:18rem;
+    width:auto;
+    border-radius: 20px;
+}
+
+aside{
+    display: flex;
+    
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+
+    background-color:rgb(40, 38, 38);
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+
+
+aside ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+
+}
+
+
+
+
+.resume-button
+{
+    position: relative;
+    border-color: aquamarine;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    margin-left:42%;
+    padding:1rem;
+    width:10rem;
+}
+
+
+.resume-button:hover {
+background-color: rgb(62, 61, 61);
+}
+
+
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    background-color: rgb(40, 38, 38);
+    text-align: center;
+    margin: 0;
+    position: fixed;
+}
+
+.email
+{
+    font-size:20px;
+}
+article
+{
+
+    margin-left:25%;
+    margin-top: 0;
+
+}
+
+
+
+
+@media (max-width: 950px) {
+    aside {
+        width: 100%; 
+        height: auto; 
+        position: static;
+    }
+
+    article {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+}
