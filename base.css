@@ -1,7 +1,6 @@
 
 
 body {
-  /** define custom properties so we can reference and change styles easily */
   --accent-background: #54a0ff;
   --accent-background-text: #073164;
   --accent-text: #2e86de;
@@ -16,64 +15,3 @@ body {
   padding: 0rem;
 }
 
-
-
-ul.tags {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  text-decoration: none;
-  
-
-  padding-left: 0rem;
-}
-
-ul.tags li {
-  border-radius: .4rem;
-  background-color: var(--gray);
-  padding: .1rem .5rem;
-  margin-left: .25rem;
-  margin-right: .25rem;
-  
-}
-
-ul.tags a {
-  color: var(--darkest-gray)
-  
-}
-
-/**
-  navigation
-*/
-nav {
-  background-color: var(--accent-background);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  list-style: none;
-  gap: 1rem;
-  
-  
-
-}
-
-nav ul {
-  display: flex;
-  
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  margin-right: 1rem;
-  gap: 1rem;
-  list-style: none;
-  
-  
-
-}
-
-nav ul a {
-  background-color: var(--accent-background);
-  text-decoration: none;
-  color: black;
-  justify-content: space-between;
-  
-}
