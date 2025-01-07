@@ -22,7 +22,7 @@ h1{
 
     font-weight: 300;
     margin-top:10rem;
-
+    margin-left:-2rem;
     font-size: 40px;
     text-align: center;
     display: flex;
@@ -33,7 +33,7 @@ h2
     font-weight: 300;
     font-size:35px;
 
-    margin-left: 30%;
+    margin-left: 35%;
 }
 h3
 {
@@ -54,7 +54,8 @@ h3
     background-color: white;
     border-radius:60px;
 
-    margin-top: .2rem;
+    margin-left:-1rem;
+    margin-top: .5rem;
 
 
 }
@@ -86,6 +87,7 @@ h3
 {
     margin-top:-14rem;
 }
+
 .interest
 {
     
@@ -267,7 +269,7 @@ background-color: rgb(62, 61, 61);
 aside {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 30%;
     height: 100%;
     background-color: rgb(40, 38, 38);
     text-align: center;
@@ -282,8 +284,10 @@ aside {
 article
 {
 
-    margin-left:25%;
+    margin-left:22%;
     margin-top: 0;
+
+
 
 }
 
@@ -302,4 +306,11 @@ article
         width: 100%;
     }
     
+}
+
+footer
+{
+    margin-top:3rem;
+    font-size:18px;
+    text-align: center;
 }
