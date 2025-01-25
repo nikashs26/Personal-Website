@@ -85,7 +85,9 @@ h3
 }
 #about-me
 {
-    margin-top:-14rem;
+    margin-top:-15rem;
+    margin-right:3rem;
+    margin-bottom:4rem;
 }
 
 .interest
@@ -183,7 +185,7 @@ h3
     margin-left:10rem;
     margin-right:1rem;
 }
-#trumpet, #robotics, #tkh
+#trumpet, #robotics, #tkh, #galileo, #service
 {
     margin-top:3rem;
     margin-left:5rem;
