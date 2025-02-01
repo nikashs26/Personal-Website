@@ -5,8 +5,23 @@
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="base.css">
     <link rel="stylesheet" type="text/css" href="index.css">
+    
   </head>
   <body>
+    <header>
+      <nav aria-label="Main navigation">
+          <ul>
+              <li><a href="#">EXPERIENCES</a></li>
+              <li class="nav-divider"></li>
+              <li><a href="#">ABOUT ME</a></li>
+          </ul>
+      </nav>
+      <form role="search" aria-label="Search site" onsubmit="performSearch(event)">
+          <input type="search" id="search-input" name="q" placeholder="Search" aria-label="Search" required>
+          <button type="submit">🔍</button>
+      </form>
+  </header>
+
     <aside>
       <figure>
         <img class="profile" src="./images/me.png" id="profile" alt="a photo of me"/>
@@ -43,7 +58,7 @@
       <h1>
         I'm Nikash Shanbhag.
       </h1>
-      <a href="file:///Users/nikashshanbhag/Downloads/Nikash%20Shanbhag%20Resume%202024%20(3).pdf" target="_blank">
+      <a href="resume.html" target="_blank">
       <button class="resume-button">My Resume</button>
       </a>
       <p class = "interest">I am interested in the combination of creative design and engineering to make something meaningful.</p>
