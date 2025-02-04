@@ -174,13 +174,14 @@ h2
     font-weight: 300;
     font-size:35px;
     text-align: center;
-    margin-left:-7rem;
+    margin-left:-10rem;
 
 }
 h3
 {
     font-weight:200;
     font-size:25px;
+
 
 
 }
@@ -315,7 +316,9 @@ h3
 #clubs-activities h3
 {
     text-align: center;
+
     margin-top:3rem;
+
 
 }
 #clubs-activities img
@@ -342,9 +345,9 @@ h3
 {
     margin-left:-5rem;
 }
-#hs-title
+.hs-title
 {
-
+    margin-left:-15%;
     font-size:30px;
 }
 
