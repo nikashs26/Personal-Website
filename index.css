@@ -426,13 +426,35 @@ aside {
 {
     font-size:20px;
 }
+
+#my-img
+{
+    margin-top:5rem;
+    
+}
+#my-img p
+{
+    font-size: 35px;
+    margin-left:12%;
+
+}
+#my-img .portrait
+{
+    width:40%;
+    margin-left:7%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
 article
 {
 
     margin-left:22%;
     margin-top: 0;
-
-
+    
 
 }
 
@@ -455,7 +477,8 @@ article
 
 footer
 {
-    margin-top:3rem;
+    margin-top:2rem;
     font-size:18px;
     text-align: center;
+    background-color: #1a1a1a;
 }
