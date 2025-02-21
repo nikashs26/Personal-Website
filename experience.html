@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="base.css">
+<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body>
+
+<header>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">ABOUT ME</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="experience.html">EXPERIENCES</a></li>
+        </ul>
+    </nav>
+    <form role="search" aria-label="Search site" onsubmit="performSearch(event)">
+        <input type="search" id="search-input" name="q" placeholder="Search that does NOT work" aria-label="Search" required>
+        <button type="submit">🔍</button>
+    </form>
+</header>
+
+<aside>
+    <figure>
+    <img class="profile" src="./images/me.png" id="profile" alt="a photo of me"/>
+    <figcaption>
+        <ul>
+        <li>
+            <a href="https://github.com/nikashs26/" target="_blank">
+            <img class="logo" src="./images/github.png" id="github" alt="My Github" width = 60 height = auto/>
+            </a>
+        </li>
+
+        
+        <li>
+            <a href="https://www.linkedin.com/in/nikash-shanbhag-a05931250/" target="_blank">
+            <img
+                class="logo"
+                src="./images/linked-in.png" id="linkedin"
+                alt="My LinkedIn" width = 75 height = auto/>
+            </a>
+        </li>
+        </ul>
+        <p class = "email">Email me: nikash926@gmail.com</p>
+
+    </figcaption>
+    </figure>
+</aside>
+<article>
+
+<article id = "projects">
+<h2>My Projects</h2>
+<h3 id = m13-title>Math 13 Remade</h3>
+<a class = m13gh href = "https://github.com/nikashs26/Math-13-Smolarski-Page" target="_blank">GitHub</a>
+|
+<a class = m13s href = "https://math-13-smolarski-page.vercel.app/static/index.html" target="_blank">Website</a>
+<div id = "math13-proj">
+    <img src="images/math13.png" class = snippets alt="Math 13 Website Snippet">
+    <p>Used HTML, CSS, and JavaScript to revamp a math professor's site to make it more modernized, accessible,
+    and intuitive for students to use. Worked in a team to remake four of the site's pages, adding
+    functionalities, easier navigation, and organized links.
+    </p>
+</div>
+<h3 id = "simba-title">Simba's Surveillance</h3>
+<a href = "https://github.com/NickelR22/simbassurveillance" target="_blank">GitHub</a>
+|
+<a href = "https://math-13-smolarski-page.vercel.app/static/index.html" target="_blank">Website</a>
+|
+<a href = " https://devpost.com/software/bobs-consulting" target="_blank">DevPost</a>
+<div id = "simba-proj">
+    
+    <img src="images/ss.png" class = snippets alt="Simba's Surveillance Home Page Snippet">
+    <p>
+    Developed the frontend for a real-time Lion King-themed wildlife trespasser detection system, which uses AI 
+    to detect human figures that appear in live-streamed videos in protected territories, using React and CSS to 
+    create a responsive homepage and structure the about page. Connected the Python-based backend to the frontend 
+    by retrieving and displaying JSON data in the React file, including timestamps and images of detected trespassers. 
+    Enhanced real-time data visualization to improve accessibility and responsiveness, aiding wildlife protection efforts.
+    </p>
+</div>
+<h3 id = "parks-title">Peter Parks</h3>
+<div id = "pplinks">
+    <a class = ppgh href = "https://github.com/nikashs26/AI-Hack-2024">GitHub</a>
+    |
+    <a href = "https://devpost.com/software/parking-kjx41u">DevPost</a>
+</div>
+<div id = "parks-proj">
+<img src="images/peterparks.png" class = snippets alt="Peter Parks Detection Page Snippet">
+<p>
+    Worked in a team during AWS/INRIX Hack 2024 to build a functional parking detection model. This model
+    uses AI to count how many parking spots are available at a given destination
+    and returns this number to the user. Primarily
+    worked on frontend, using JS and CSS, and assisted backend developers. Presented our work
+    to panels of judges, and it achieved
+    a finalist rank.
+</p>
+</div>
+
+<h3 id = "sc4-title">Shrek's Connect 4</h3>
+<a class = sc4gh href = "https://github.com/nikashs26/Shreks-Connect-4">GitHub</a>
+
+<div id = "shrekconnect4-proj">
+<img src="images/swamp.png" class = snippets alt="Shrek's Connect 4 Snippet">
+<p>Built a Shrek-themed Connect 4 game using Python and the Pygame Software. Developed working
+    AI singleplayer and two-player modes. Used Shrek characters as in-game players.
+</p>
+</div>
+</article>
+<article id = "clubs-activities">
+
+<h2>Clubs/Activities</h2>
+<h3 class = "hs-title">High School</h3>
+<h3 class = "robotics-title">Robotics - FRC Member</h3>
+<div id = "robotics">
+<img src="images/robotics-ilooklikeshit.png" class = "clubs-activities" alt="Me working with others building electrical plate of robot">
+
+<p>Selected member of AMHS's FRC (FIRST Robotics Competition) Robotics Team, TKO 1351. Worked on competition robot's 
+electronics plate, wiring and organzing components. Attended FIRST competitions, representing
+TKO 1351. Helped organize and test team batteries, the electrical components, and the robot's combination with the
+prgramming as well as mechanical parts (shooter, intaker, etc.).
+
+</p>
+</div>
+<h3 id = "trumpet-title">Jazz Band/Wind Ensemble - Trumpeter</h3>
+<div id = "trumpet">
+<img src="images/trumpet.png" class = "clubs-activities" alt="Me holding a small trumpet in front of a mirror">
+
+<p>Member of Archbishop Mitty High School's Jazz in the AM group. Performed
+jazz pieces with the band at several events including basketball games, CMEA, seasonal concerts,
+and the Black and Gold Gala. Played improvised and written solos at many of these events. Also member of 
+AMHS's Wind Ensemble/Pepband group, where I played band music at football games, 
+concerts, and competitions.
+</p>
+</div>
+<h3>TechKnowHow Camps - Assistant Instructor</h3>
+<div id = "tkh">
+<img src="images/tkh.png" class = "clubs-activities" alt="TechKnowHow Logo">
+
+<p> Led classes of 18-20 students aged 5-13 in Minecraft, Roblox studio, 
+LEGO robotics, and BlockBench (3D modeling software for Minecraft).
+Managed extended care group, running outdoor and indoor activities for 
+campers. Handled camper sign-in/sign-outs, as well as clean-up at the end of
+each day.
+</p>
+</div>
+<h3>Camp Galileo - Summer Operations Intern</h3>
+<div id = "galileo">
+<img src="images/galileo.png" class = "clubs-activities" alt="Camp Galileo Logo">
+
+<p> Substituted for team leads on break to guide 15-25 kids aged 5-13 in STEM classes 
+and outdoor activities. Managed hands-on office tasks like nametag distribution and lanyard
+organization. Coordinated with team leads, lead instructors, 
+camp head, and other interns for tasks. 
+</p>
+</div>
+<h3>Catholic Charities of Santa Clara County - Food Distribution Volunteer</h3>
+<div id = "service">
+<img src="images/ccscc.png" class = "clubs-activities" alt="Catholic Charities of Santa Clara County Logo">
+
+<p> Organized boxes of organic food, including items such as chicken, milk, vegetables, and fruit, for 
+distribution to economically disadvantaged individuals. Coordinated the placement of boxes
+in designated patterns for efficient distribution and delivered the food directly to the trunks and backseats of 
+vehicles.
+</p>
+</div>
+<footer>
+©Made and maintained by Nikash Shanbhag
+</footer>
+</article>
